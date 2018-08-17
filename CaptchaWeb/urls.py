@@ -20,5 +20,5 @@ from CaptchaWeb import MainView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', MainView.check_captcha),
+    path('captcha/check', MainView.check_captcha),
 ]
